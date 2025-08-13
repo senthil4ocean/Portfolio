@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senthil Balaganesh - Geospatial Scientist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <h3 id="home-link">OCEANMATE</h3>
+            </div>
+            <nav class="navbar-menu">
+                <ul class="navbar-nav">
+                    <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-page="about">About Me</a></li>
+                    <li><a href="#" class="nav-link" data-page="projects">Projects</a></li>
+                    <li><a href="#" class="nav-link" data-page="blog">Blog</a></li>
+                    <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="navbar-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu hidden">
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+                <li><a href="#" class="mobile-nav-link" data-page="home">Home</a></li>
+                <li><a href="#" class="mobile-nav-link" data-page="about">About Me</a></li>
+                <li><a href="#" class="mobile-nav-link" data-page="projects">Projects</a></li>
+                <li><a href="#" class="mobile-nav-link" data-page="blog">Blog</a></li>
+                <li><a href="#" class="mobile-nav-link" data-page="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1 class="hero-title">Senthil Balaganesh</h1>
+                            <h2 class="hero-subtitle">Geospatial Scientist</h2>
+                            <p class="hero-tagline">"Turning pixels into predictions, and predictions into protection"</p>
+                            <div class="hero-buttons">
+                                <a href="#" class="btn btn--primary btn--lg" data-page="projects">View Projects</a>
+                                <a href="#" class="btn btn--outline btn--lg" data-page="contact">Contact Me</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <div class="profile-placeholder">
+                                <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="100" cy="100" r="100" fill="var(--color-secondary)"/>
+                                    <circle cx="100" cy="75" r="30" fill="var(--color-text-secondary)"/>
+                                    <path d="M40 160 C60 140, 140 140, 160 160 L40 160" fill="var(--color-text-secondary)"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Me Page -->
+        <div id="about-page" class="page">
+            <section class="about">
+                <div class="container">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>As a geospatial enthusiast with a decade of expertise in GIS and Remote Sensing, dedicated to transforming complex data into strategic insights. My relentless pursuit of knowledge drives me to push technological boundaries, embrace interdisciplinary learning, and pioneer innovative applications.</p>
+                            
+                            <p>Over the years, I have delivered impactful solutions for high-profile initiatives funded by the Government of India, the World Bank, and ISRO. My work spans critical domains such as land suitability assessment, marine spatial planning, coastal zone management, and satellite-derived bathymetry—advancing science with real-world relevance.</p>
+                            
+                            <p>Fuelled by a deep passion for innovation, I combine analytical rigour with creative problem-solving to address environmental and societal challenges. My vision is to bridge the gap between cutting-edge research and actionable, field-ready solutions—empowering sustainable development and climate resilience for the future.</p>
+                            
+                            <a href="#" class="btn btn--primary" id="download-resume">Download Resume</a>
+                        </div>
+                        
+                        <div class="skills-section">
+                            <h3>Technical Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <span class="skill-name">ArcGIS Pro</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">QGIS</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Pix4D</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Erdas Imagine</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Spatial and 3D Analyst</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Google Earth Engine</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Python</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Project Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Section -->
+                    <div class="timeline-section">
+                        <h3 class="timeline-title">Education & Work Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2010-2015</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-type education">Education</div>
+                                    <h4>Master of Science [5-year Integrated]</h4>
+                                    <div class="timeline-org">Bharathidasan University, Trichy</div>
+                                    <p>Major in Geosciences. Thesis on 'Ocean State Forecast Validation and its dissemination using GUI' with INCOIS, MoES, GoI.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-year">2015-2017</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-type work">Work</div>
+                                    <h4>GIS Analyst</h4>
+                                    <div class="timeline-org">COWI India (P) Ltd.</div>
+                                    <p>Spatial features extraction using ArcGIS and preparation of Thematic layers. LiDAR data classification of Landuse patterns using Terrascan and Terra Module.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-year">2017-2022</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-type work">Work</div>
+                                    <h4>Project Associate</h4>
+                                    <div class="timeline-org">National Centre for Sustainable Coastal Management, GoI</div>
+                                    <p>Prepare and compile Remote Sensing and GIS databases for projects. Field survey, Quality check, developing schema and assessment of GIS and Remote Sensing datasets for projects under World Bank and MoEF & CC. Developing scripting and automating geoprocessing using ArcPy and Google Earth Engine.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-year">2022-Present</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-type work">Work</div>
+                                    <h4>Project Scientist</h4>
+                                    <div class="timeline-org">National Centre for Coastal Research, GoI</div>
+                                    <p>Led a team on detailed field survey using Drone and Stakeholder interaction to develop informed decision on management plan of projects. Streamlined GIS processes and analysis for development of database management and WebGIS.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Projects Page -->
+        <div id="projects-page" class="page">
+            <section class="projects">
+                <div class="container">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card card">
+                            <div class="project-content card__body">
+                                <h3 class="project-title">Ocean State Forecasting Validation</h3>
+                                <p class="project-description">Developed GUI-based system for validation and dissemination of ocean state forecast data using advanced GIS and remote sensing techniques.</p>
+                                <div class="project-technologies">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">GIS</span>
+                                    <span class="tech-tag">Remote Sensing</span>
+                                    <span class="tech-tag">Data Validation</span>
+                                </div>
+                                <div class="project-category">Oceanography</div>
+                                <button class="btn btn--outline btn--sm project-btn">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card card">
+                            <div class="project-content card__body">
+                                <h3 class="project-title">Marine Spatial Planning</h3>
+                                <p class="project-description">Comprehensive spatial planning framework for marine environments using multi-criteria analysis and stakeholder engagement.</p>
+                                <div class="project-technologies">
+                                    <span class="tech-tag">ArcGIS Pro</span>
+                                    <span class="tech-tag">Spatial Analysis</span>
+                                    <span class="tech-tag">Multi-criteria Decision Analysis</span>
+                                </div>
+                                <div class="project-category">Marine Planning</div>
+                                <button class="btn btn--outline btn--sm project-btn">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card card">
+                            <div class="project-content card__body">
+                                <h3 class="project-title">Landuse and Land cover Analysis</h3>
+                                <p class="project-description">Large-scale LULC mapping and change detection analysis using satellite imagery and machine learning techniques.</p>
+                                <div class="project-technologies">
+                                    <span class="tech-tag">Remote Sensing</span>
+                                    <span class="tech-tag">Google Earth Engine</span>
+                                    <span class="tech-tag">Machine Learning</span>
+                                    <span class="tech-tag">QGIS</span>
+                                </div>
+                                <div class="project-category">Land Use</div>
+                                <button class="btn btn--outline btn--sm project-btn">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card card">
+                            <div class="project-content card__body">
+                                <h3 class="project-title">Satellite Derived Bathymetry</h3>
+                                <p class="project-description">Innovative approach to derive water depth information from satellite imagery for coastal and shallow water environments.</p>
+                                <div class="project-technologies">
+                                    <span class="tech-tag">Satellite Imagery</span>
+                                    <span class="tech-tag">Bathymetry</span>
+                                    <span class="tech-tag">Coastal Mapping</span>
+                                    <span class="tech-tag">Python</span>
+                                </div>
+                                <div class="project-category">Coastal Science</div>
+                                <button class="btn btn--outline btn--sm project-btn">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card card">
+                            <div class="project-content card__body">
+                                <h3 class="project-title">Coastal Zone Management</h3>
+                                <p class="project-description">Integrated coastal zone management solutions combining field survey data with remote sensing for sustainable coastal development.</p>
+                                <div class="project-technologies">
+                                    <span class="tech-tag">Coastal Management</span>
+                                    <span class="tech-tag">Field Survey</span>
+                                    <span class="tech-tag">GIS</span>
+                                    <span class="tech-tag">Policy Development</span>
+                                </div>
+                                <div class="project-category">Coastal Management</div>
+                                <button class="btn btn--outline btn--sm project-btn">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card card">
+                            <div class="project-content card__body">
+                                <h3 class="project-title">Drone Survey for Vulnerability Analysis</h3>
+                                <p class="project-description">High-resolution drone-based surveys for assessing coastal vulnerability and developing management strategies.</p>
+                                <div class="project-technologies">
+                                    <span class="tech-tag">Drone Technology</span>
+                                    <span class="tech-tag">Pix4D</span>
+                                    <span class="tech-tag">Vulnerability Assessment</span>
+                                    <span class="tech-tag">3D Analysis</span>
+                                </div>
+                                <div class="project-category">Drone Survey</div>
+                                <button class="btn btn--outline btn--sm project-btn">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card card">
+                            <div class="project-content card__body">
+                                <h3 class="project-title">Granulometric Analysis</h3>
+                                <p class="project-description">Detailed sediment analysis using advanced techniques to understand coastal processes and sediment transport patterns.</p>
+                                <div class="project-technologies">
+                                    <span class="tech-tag">Sediment Analysis</span>
+                                    <span class="tech-tag">Coastal Processes</span>
+                                    <span class="tech-tag">Laboratory Analysis</span>
+                                    <span class="tech-tag">Statistical Analysis</span>
+                                </div>
+                                <div class="project-category">Sedimentology</div>
+                                <button class="btn btn--outline btn--sm project-btn">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Blog Page -->
+        <div id="blog-page" class="page">
+            <section class="blog">
+                <div class="container">
+                    <h2 class="section-title">Latest Blog Posts</h2>
+                    <div class="blog-grid">
+                        <article class="blog-card card">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <svg width="100%" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="400" height="200" fill="var(--color-bg-4)"/>
+                                        <text x="200" y="100" text-anchor="middle" fill="var(--color-text)" font-size="14">Cyclone Tracking</text>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="blog-content card__body">
+                                <div class="blog-meta">
+                                    <span class="blog-date">May 21, 2020</span>
+                                    <span class="blog-category">Meteorology</span>
+                                </div>
+                                <h3 class="blog-title">Tracking of Amphan Cyclone</h3>
+                                <p class="blog-excerpt">Dealing with a natural disaster like this would be challenging enough. But it occurred in the midst of the coronavirus pandemic, complicating things enormously. The Super Cyclonic Storm 'AMPHAN' crossed West Bengal – Bangladesh coasts as a Very Severe Cyclonic Storm with speeds of 155-165 kmph.</p>
+                                <button class="btn btn--outline btn--sm blog-btn">Read More</button>
+                            </div>
+                        </article>
+
+                        <article class="blog-card card">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <svg width="100%" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="400" height="200" fill="var(--color-bg-3)"/>
+                                        <text x="200" y="100" text-anchor="middle" fill="var(--color-text)" font-size="14">Namaste Science</text>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="blog-content card__body">
+                                <div class="blog-meta">
+                                    <span class="blog-date">March 28, 2020</span>
+                                    <span class="blog-category">Health & Culture</span>
+                                </div>
+                                <h3 class="blog-title">COVID-19 & Namaste</h3>
+                                <p class="blog-excerpt">As WHO Executive Director, Dr Michael J Ryan had said the effect of this pandemic COVID-19 will be determined how well India response to this. Let's describe our own and most ancient practice 'Namaste' and the science behind this traditional gesture.</p>
+                                <button class="btn btn--outline btn--sm blog-btn">Read More</button>
+                            </div>
+                        </article>
+
+                        <article class="blog-card card">
+                            <div class="blog-image">
+                                <div class="image-placeholder">
+                                    <svg width="100%" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="400" height="200" fill="var(--color-bg-2)"/>
+                                        <text x="200" y="100" text-anchor="middle" fill="var(--color-text)" font-size="14">Solar Eclipse</text>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="blog-content card__body">
+                                <div class="blog-meta">
+                                    <span class="blog-date">December 26, 2019</span>
+                                    <span class="blog-category">Astronomy</span>
+                                </div>
+                                <h3 class="blog-title">Science of Effects of Solar Eclipse</h3>
+                                <p class="blog-excerpt">A solar eclipse occurs when a portion of the Earth is engulfed in a shadow cast by the Moon which fully or partially blocks sunlight. Eclipse was always interpreted as the beginning of disaster or bad, but what is the science behind it?</p>
+                                <button class="btn btn--outline btn--sm blog-btn">Read More</button>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="blog-actions">
+                        <button class="btn btn--secondary" id="read-more-btn">Read More Posts</button>
+                    </div>
+
+                    <!-- Future Blog Posts Section -->
+                    <div class="future-blogs">
+                        <h3>Future Blog Posts</h3>
+                        <p class="future-blogs-placeholder">More exciting content coming soon! Stay tuned for updates on geospatial science, remote sensing technologies, and coastal research.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact-page" class="page">
+            <section class="contact">
+                <div class="container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-details">
+                                <h3>Contact Information</h3>
+                                <div class="contact-item">
+                                    <strong>Email:</strong>
+                                    <a href="mailto:hanusent@gmail.com">hanusent@gmail.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Location:</strong>
+                                    <span>Chennai, TN, IN</span>
+                                </div>
+                            </div>
+                            
+                            <div class="social-links">
+                                <h3>Connect With Me</h3>
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/in/senthilbalaganesh/" target="_blank" class="social-link">LinkedIn</a>
+                                    <a href="https://github.com/senthil4ocean" target="_blank" class="social-link">GitHub</a>
+                                    <a href="https://x.com/Senthil4Ocean" target="_blank" class="social-link">X</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-container">
+                            <form class="contact-form" id="contactForm">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" id="name" name="name" class="form-control" required>
+                                        <div class="error-message" id="nameError"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                        <div class="error-message" id="emailError"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control" required>
+                                    <div class="error-message" id="subjectError"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" name="message" rows="6" class="form-control" required></textarea>
+                                    <div class="error-message" id="messageError"></div>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Senthil Balaganesh. All rights reserved.</p>
+                <p>Geospatial Scientist</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
